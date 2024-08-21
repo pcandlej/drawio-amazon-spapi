@@ -31,14 +31,14 @@
         <mxCell id="QlagxdASLO2grWa5YxOl-1" value="亚马逊卖家(同时是网站用户)登录网站" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="410" y="275" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QlagxdASLO2grWa5YxOl-2" value="点击授权按钮，跳转到亚马逊卖家后台" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="QlagxdASLO2grWa5YxOl-2" value="点击网站的授权按钮，跳转到亚马逊卖家后台" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="410" y="405" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QlagxdASLO2grWa5YxOl-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;注意事项&lt;/h1&gt;&lt;p&gt;1. 提供短时效的唯一可验证的状态 token 来加强 URI 参数的安全性；&lt;/p&gt;&lt;p&gt;2. 设置&amp;nbsp;Referrer-Policy: no-referrer 请求头，以防止敏感信息泄露到您的网站链接到的网站。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="530" y="285" width="410" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="QlagxdASLO2grWa5YxOl-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;https://sellercentral.amazon.com/apps/authorize/consent?application_id=appidexample&amp;amp;state=stateexample&amp;amp;version=beta&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="530" y="405" width="690" height="50" as="geometry" />
+        <mxCell id="QlagxdASLO2grWa5YxOl-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;按钮跳转地址举例 https://sellercentral.amazon.com/apps/authorize/consent?application_id=appidexample&amp;amp;state=stateexample&amp;amp;version=beta&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="530" y="405" width="760" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
