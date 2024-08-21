@@ -49,8 +49,11 @@
         <mxCell id="QlagxdASLO2grWa5YxOl-12" value="亚马逊卖家跳转到亚马逊后台时会要求登录卖家账号。&lt;div&gt;&lt;br&gt;&lt;div&gt;登录成功时，页面会跳转到卖家给网站授权的页面。卖家需要在该页面同意或拒绝授权给网站，让网站可以使用 SP-API 管理亚马逊店铺。&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;网站一般只向卖家申请提供服务所必要的功能授权而非所有授权。申请授权功能列表（同意屏幕）配置在网站app的亚马逊开发者后台进行，这里不作详细介绍。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="60" y="575" width="300" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="QlagxdASLO2grWa5YxOl-13" value="亚马逊卖家同意授权后，亚马逊会向网站发起请求。该请求的地址是网站在亚马逊开发者后台配置的。&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;举例:&lt;/div&gt;&lt;div&gt;https://client-example.com?state=state-example&amp;amp;mws_auth_token=mwsauthtokenexample&amp;amp;selling_partner_id=sellingpartneridexample&amp;amp;spapi_oauth_code=spapioauthcodeexample&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="560" y="722.5" width="770" height="105" as="geometry" />
+        <mxCell id="QlagxdASLO2grWa5YxOl-13" value="亚马逊卖家同意授权后，亚马逊会向网站发起请求。该请求的地址是网站在亚马逊开发者后台配置的。&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;举例:&lt;/div&gt;&lt;div&gt;https://client-example.com?state=state-example&amp;amp;mws_auth_token=mwsauthtokenexample&amp;amp;selling_partner_id=sellingpartneridexample&amp;amp;spapi_oauth_code=spapioauthcodeexample&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;网站需要保存 selling_partner_id, mws_auth_token (如果有传), spapi_oauth_code&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;最终展示网站着陆页&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="560" y="696.25" width="770" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QlagxdASLO2grWa5YxOl-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;注意事项&lt;/h1&gt;&lt;p&gt;1. LWA 授权码 spapi_oauth_code 是短时效唯一授权码，仅可使用1次，有效期仅有 5 分钟。网站需要在 5 分钟内使用该授权码换回刷新令牌(refresh_token)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="560" y="853.75" width="420" height="96.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
