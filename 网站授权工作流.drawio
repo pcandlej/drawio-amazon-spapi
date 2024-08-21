@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="EUCrMSwbg8C987eHivcL">
-    <mxGraphModel dx="1097" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="866" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,52 +8,55 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Y9t4oav_r9_LVxDpHB5L-2" value="设置授权按钮" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="410" y="360" width="100" height="50" as="geometry" />
+          <mxGeometry x="430" y="70" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Y9t4oav_r9_LVxDpHB5L-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="Y9t4oav_r9_LVxDpHB5L-3" target="Y9t4oav_r9_LVxDpHB5L-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Y9t4oav_r9_LVxDpHB5L-3" value="卖家从网站发起授权" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="410" y="490" width="100" height="50" as="geometry" />
+          <mxGeometry x="430" y="200" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Y9t4oav_r9_LVxDpHB5L-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="Y9t4oav_r9_LVxDpHB5L-5" target="Y9t4oav_r9_LVxDpHB5L-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Y9t4oav_r9_LVxDpHB5L-5" value="卖家在亚马逊后台同意授权" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="410" y="620" width="100" height="50" as="geometry" />
+          <mxGeometry x="430" y="330" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QlagxdASLO2grWa5YxOl-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="Y9t4oav_r9_LVxDpHB5L-7" target="QlagxdASLO2grWa5YxOl-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Y9t4oav_r9_LVxDpHB5L-7" value="亚马逊发送授权信息" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="410" y="750" width="100" height="50" as="geometry" />
+          <mxGeometry x="430" y="460" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QlagxdASLO2grWa5YxOl-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="QlagxdASLO2grWa5YxOl-1" target="QlagxdASLO2grWa5YxOl-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QlagxdASLO2grWa5YxOl-1" value="亚马逊卖家(同时是网站用户)登录网站" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="560" y="430" width="100" height="50" as="geometry" />
+          <mxGeometry x="580" y="140" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QlagxdASLO2grWa5YxOl-2" value="点击网站的授权按钮，跳转到亚马逊卖家后台" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="560" y="560" width="100" height="50" as="geometry" />
+          <mxGeometry x="580" y="270" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QlagxdASLO2grWa5YxOl-6" value="按钮跳转地址举例&#xa;https://sellercentral.amazon.com/apps/authorize/consent?application_id=appidexample&amp;state=stateexample&amp;version=beta&#xa;" style="text;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="680" y="560" width="670" height="45" as="geometry" />
+          <mxGeometry x="700" y="270" width="670" height="45" as="geometry" />
         </mxCell>
         <mxCell id="QlagxdASLO2grWa5YxOl-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;注意事项&lt;/h1&gt;&lt;p&gt;1. 提供短时效的唯一可验证的状态 token 来加强 URI 参数的安全性；&lt;/p&gt;&lt;p&gt;2. 设置&amp;nbsp;Referrer-Policy: no-referrer 请求头，以防止敏感信息泄露到您的网站链接到的网站。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="680" y="440" width="410" height="120" as="geometry" />
+          <mxGeometry x="700" y="150" width="410" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="QlagxdASLO2grWa5YxOl-9" value="应用程序使用LWA授权代码生成LWA刷新令牌" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="410" y="880" width="100" height="50" as="geometry" />
+        <mxCell id="QlagxdASLO2grWa5YxOl-9" value="应用程序使用LWA授权代码生成LWA刷新令牌" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="590" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QlagxdASLO2grWa5YxOl-12" value="亚马逊卖家跳转到亚马逊后台时会要求登录卖家账号。&lt;div&gt;&lt;br&gt;&lt;div&gt;登录成功时，页面会跳转到卖家给网站授权的页面。卖家需要在该页面同意或拒绝授权给网站，让网站可以使用 SP-API 管理亚马逊店铺。&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;网站一般只向卖家申请提供服务所必要的功能授权而非所有授权。申请授权功能列表（同意屏幕）配置在网站app的亚马逊开发者后台进行，这里不作详细介绍。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="60" y="575" width="300" height="140" as="geometry" />
+          <mxGeometry x="80" y="285" width="300" height="140" as="geometry" />
         </mxCell>
         <mxCell id="QlagxdASLO2grWa5YxOl-13" value="亚马逊卖家同意授权后，亚马逊会向网站发起请求。该请求的地址是网站在亚马逊开发者后台配置的。&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;举例:&lt;/div&gt;&lt;div&gt;https://client-example.com?state=state-example&amp;amp;mws_auth_token=mwsauthtokenexample&amp;amp;selling_partner_id=sellingpartneridexample&amp;amp;spapi_oauth_code=spapioauthcodeexample&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;网站需要保存 selling_partner_id, mws_auth_token (如果有传), spapi_oauth_code&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;最终展示网站着陆页&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="560" y="696.25" width="770" height="157.5" as="geometry" />
+          <mxGeometry x="580" y="406.25" width="770" height="157.5" as="geometry" />
         </mxCell>
         <mxCell id="QlagxdASLO2grWa5YxOl-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;注意事项&lt;/h1&gt;&lt;p&gt;1. LWA 授权码 spapi_oauth_code 是短时效唯一授权码，仅可使用1次，有效期仅有 5 分钟。网站需要在 5 分钟内使用该授权码换回刷新令牌(refresh_token)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="560" y="853.75" width="420" height="96.25" as="geometry" />
+          <mxGeometry x="580" y="563.75" width="390" height="106.25" as="geometry" />
+        </mxCell>
+        <mxCell id="QlagxdASLO2grWa5YxOl-15" value="&lt;div&gt;&lt;span style=&quot;white-space: pre; color: rgb(22, 25, 31); font-family: Ember, -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; background-color: initial;&quot;&gt;通过授权api 用 LWA 授权码换刷新令牌&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre; color: rgb(22, 25, 31); font-family: Ember, -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Ember, -apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#16191f&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;POST /auth/o2/token HTTP/1.1&lt;br&gt;Host: api.amazon.com&lt;br&gt;Content-Type: application/x-www-form-urlencoded;charset=UTF-8&lt;br&gt;grant_type=authorization_code&amp;amp;code=SplxlOexamplebYS6WxSbIA&amp;amp;client_id=foodev&amp;amp;client_secret=Y76SDl2F&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="680" width="820" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
